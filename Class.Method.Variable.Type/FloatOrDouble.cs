@@ -21,7 +21,7 @@ namespace Class.Method.Variable.Type
         //double precision 15-16 digits
         //decimal precision 28-29 digits
 
-        public static void FloatOrDoube()
+        public static void CheckFloatOrDouble()
         {
             double d = 34.567839023;
             Console.WriteLine(d);
@@ -31,7 +31,9 @@ namespace Class.Method.Variable.Type
             Console.WriteLine(f);
             float j = 3456.091F;
             Console.WriteLine(j);
-            Console.ReadKey();
+            Console.WriteLine();
+            Console.WriteLine("//Next Program");
+            Console.WriteLine();
         }
     }
 }

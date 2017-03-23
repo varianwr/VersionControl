@@ -10,6 +10,8 @@ namespace Class.Method.Variable.Type
     {
         static void Main(string[] args)
         {
+            FloatOrDouble.CheckFloatOrDouble();
+            UnicodeCharacter.UnicodeChar();
         }
     }
 }
