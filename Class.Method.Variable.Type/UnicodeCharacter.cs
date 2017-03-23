@@ -9,12 +9,12 @@ namespace Class.Method.Variable.Type
     class UnicodeCharacter
     {
         public static void UnicodeChar(){
+            Console.WriteLine("UnicodeCharacter.cs");
+            Console.WriteLine();
             char charparam = '\u0021';
             Console.WriteLine(charparam);
-            Console.ReadKey();
             Console.WriteLine();
             Console.WriteLine("//Next Program");
-            Console.WriteLine();
         }
     }
 }

@@ -12,6 +12,9 @@ namespace Class.Method.Variable.Type
         {
             FloatOrDouble.CheckFloatOrDouble();
             UnicodeCharacter.UnicodeChar();
+            BooleanVariable.isFemale();
+            Strings.ConcatenateString();
+            Console.ReadKey();
         }
     }
 }

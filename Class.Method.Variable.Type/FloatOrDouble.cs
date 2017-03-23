@@ -23,6 +23,8 @@ namespace Class.Method.Variable.Type
 
         public static void CheckFloatOrDouble()
         {
+            Console.WriteLine("FloatOrDouble.cs");
+            Console.WriteLine();
             double d = 34.567839023;
             Console.WriteLine(d);
             float e = 12.345F;
@@ -33,7 +35,6 @@ namespace Class.Method.Variable.Type
             Console.WriteLine(j);
             Console.WriteLine();
             Console.WriteLine("//Next Program");
-            Console.WriteLine();
         }
     }
 }
